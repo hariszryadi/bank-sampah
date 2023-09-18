@@ -1,0 +1,50 @@
+.sidebar-dark .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #E7F5F3 !important;
+    color: #00B49F !important;
+}
+
+.sidebar-dark .nav-sidebar .nav-item>.nav-link.active {
+    background-color: #E7F5F3 !important;
+    color: #00B49F !important;
+}
+
+.table > thead > tr {
+    background-color: #01534A;
+    color: #fff;
+}
+
+table.dataTable td.dt-control:before, #secondary-table td.dt-control-secondary:before {
+    cursor: pointer;
+    height: 1em;
+    width: 1em;
+    margin-top: -9px;
+    display: inline-block;
+    color: white;
+    border: 0.15em solid white;
+    border-radius: 1em;
+    box-shadow: 0 0 0.2em #444;
+    box-sizing: content-box;
+    text-align: center;
+    text-indent: 0 !important;
+    font-family: "Courier New",Courier,monospace;
+    line-height: 1em;
+    content: "+";
+    background-color: #31b131;
+}
+
+table.dataTable tr.dt-hasChild td.dt-control:before, #secondary-table tr.dt-hasChild td.dt-control-secondary:before {
+    cursor: pointer;
+    content: "-";
+    background-color: #d33333;
+}
+
+.is-invalid + .select2-container--default .select2-selection--single {
+    border: 1px solid #ef5350;
+}
+
+.span-feedback {
+    width: 100%;
+    margin-top: 0.5rem;
+    font-size: .8125rem;
+    display: none;
+}
